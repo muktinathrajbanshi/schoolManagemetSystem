@@ -71,6 +71,27 @@
     </table>
     </div>
 
+    {/*  Attendance  */}
+    <div id="attendance" class="hidden">
+
+    <table>
+
+    <thead>
+    <tr>
+    <th>Roll</th>
+    <th>Name</th>
+    <th>Present</th>
+    <th>Absent</th>
+    </tr>
+    </thead>
+
+    <tbody id="attendanceTable"></tbody>
+
+    </table>
+
+    </div>
+
+
 
 
     </div>
