@@ -42,6 +42,36 @@
     </div>
     </div>
 
+    {/* <!-- Students --> */}
+    <div id="students" class="hidden">
+
+    <div class="form-box">
+
+    <input type="text" id="name" placeholder="Student Name"></input>
+    <input type="text" id="roll" placeholder="Roll No"></input>
+    <input type="text" id="class" placeholder="Class"></input>
+
+    <button onclick="addStudent()">Add Student</button>
+
+    </div>
+
+    <table>
+
+    <thead>
+    <tr>
+    <th>Roll</th>
+    <th>Name</th>
+    <th>Class</th>
+    <th>Action</th>
+    </tr>
+    </thead>
+
+    <tbody id="studentTable"></tbody>
+
+    </table>
+    </div>
+
+
 
     </div>
     
