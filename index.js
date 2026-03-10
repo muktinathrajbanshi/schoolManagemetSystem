@@ -7,5 +7,16 @@
 </head>
 <body>
     
+    <div class="sidebar">
+
+    <h2>🏫 School Manager</h2>
+
+    <button onclick="showPage('dashboard')">Dashboard</button>
+    <button onclick="showPage('students')">Students</button>
+    <button onclick="showPage('attendance')">Attendance</button>
+    <button onclick="showPage('marks')">Marks</button>
+
+    </div>
+
 </body>
 </html>
