@@ -294,3 +294,25 @@ tr:hover {
     padding: 8px 12px;
   }
 }
+
+/* 480px */
+@media (max-width: 480px) {
+  .sidebar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sidebar button {
+    width: 100%;
+  }
+
+  .card {
+    min-width: 100%;
+  }
+
+  table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+}
