@@ -199,14 +199,21 @@ tr:hover {
   display: none;
 }
 
-/* Responsive */
+/* ============================= */
+/* RESPONSIVE DESIGN */
+/* ============================= */
 
-@media (max-width: 900px) {
-  .sidebar {
-    width: 180px;
+/* 1200px */
+@media (max-width: 1200px) {
+  .main {
+    padding: 20px;
   }
 
   .cards {
-    flex-direction: column;
+    gap: 15px;
+  }
+
+  .card p {
+    font-size: 28px;
   }
 }
