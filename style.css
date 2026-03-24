@@ -316,3 +316,38 @@ tr:hover {
     white-space: nowrap;
   }
 }
+
+/* 320px */
+@media (max-width: 320px) {
+  .main {
+    padding: 10px;
+  }
+
+  .card {
+    padding: 15px;
+  }
+
+  .card p {
+    font-size: 20px;
+  }
+
+  .form-box {
+    padding: 15px;
+  }
+
+  .form-box input {
+    font-size: 12px;
+    padding: 8px;
+  }
+
+  .form-box button {
+    font-size: 12px;
+    padding: 8px;
+  }
+
+  th,
+  td {
+    font-size: 12px;
+    padding: 6px;
+  }
+}
