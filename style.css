@@ -274,3 +274,23 @@ tr:hover {
     padding: 8px;
   }
 }
+
+/* 640px */
+@media (max-width: 640px) {
+  .card {
+    padding: 18px;
+  }
+
+  .card h3 {
+    font-size: 16px;
+  }
+
+  .card p {
+    font-size: 24px;
+  }
+
+  .sidebar button {
+    font-size: 13px;
+    padding: 8px 12px;
+  }
+}
