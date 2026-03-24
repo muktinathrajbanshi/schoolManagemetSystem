@@ -200,6 +200,84 @@ tr:hover {
 }
 
 /* ============================= */
+/* DARK MODE */
+/* ============================= */
+
+body.dark {
+  background: #0f172a;
+  color: #e2e8f0;
+}
+
+/* Sidebar */
+body.dark .sidebar {
+  background: #020617;
+}
+
+body.dark .sidebar button {
+  background: #1e293b;
+}
+
+body.dark .sidebar button:hover {
+  background: #3b82f6;
+}
+
+/* Cards */
+body.dark .card {
+  background: #1e293b;
+  color: white;
+}
+
+body.dark .card h3 {
+  color: #cbd5f5;
+}
+
+body.dark .card p {
+  color: #60a5fa;
+}
+
+/* Form */
+body.dark .form-box {
+  background: #1e293b;
+}
+
+body.dark .form-box input {
+  background: #020617;
+  color: white;
+  border: 1px solid #334155;
+}
+
+/* Tables */
+body.dark table {
+  background: #1e293b;
+}
+
+body.dark th {
+  background: #2563eb;
+}
+
+body.dark td {
+  color: #e2e8f0;
+  border-bottom: 1px solid #334155;
+}
+
+body.dark tr:hover {
+  background: #0f172a;
+}
+
+/* Buttons */
+body.dark .delete {
+  background: #b91c1c;
+}
+
+body.dark .present {
+  background: #15803d;
+}
+
+body.dark .absent {
+  background: #b91c1c;
+}
+
+/* ============================= */
 /* RESPONSIVE DESIGN */
 /* ============================= */
 

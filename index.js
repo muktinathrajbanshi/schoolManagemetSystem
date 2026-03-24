@@ -12,6 +12,28 @@ function showPage(page){
     updateDashboard();
 }
 
+function toggleDarkMode() {
+  const body = document.body;
+  const btn = document.getElementById("themeBtn");
+
+  body.classList.toggle("dark");
+
+  if (body.classList.contains("dark")) {
+    localStorage.setItem("theme", "dark");
+    btn.textContent = "☀️ Light Mode";
+  } else {
+    localStorage.setItem("theme", "light");
+    btn.textContent = "🌙 Dark Mode";
+  }
+}
+
+// Load saved theme
+window.onload = () => {
+  if (localStorage.getItem("theme") === "dark") {
+    document.body.classList.add("dark");
+  }
+};
+
 function addStudent(){
 
     let name = document.getElementById("name").value;
