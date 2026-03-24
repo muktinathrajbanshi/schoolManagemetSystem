@@ -248,3 +248,29 @@ tr:hover {
     flex-direction: column;
   }
 }
+
+/* 720px */
+@media (max-width: 720px) {
+  .main {
+    padding: 15px;
+  }
+
+  .form-box input {
+    width: 100%;
+    margin: 8px 0;
+  }
+
+  .form-box button {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  table {
+    font-size: 13px;
+  }
+
+  th,
+  td {
+    padding: 8px;
+  }
+}
