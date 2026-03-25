@@ -34,6 +34,19 @@ window.onload = () => {
   }
 };
 
+let editIndex = -1;
+
+function editStudent(index){
+
+    let s = students[index];
+
+    document.getElementById("name").value = s.name;
+    document.getElementById("roll").value = s.roll;
+    document.getElementById("studentClass").value = s.className;
+
+    editIndex = index;
+}
+
 function addStudent(){
 
     let name = document.getElementById("name").value;
@@ -45,11 +58,23 @@ function addStudent(){
         return;
     }
 
-    students.push({
-        name: name,
-        roll: roll,
-        className: className
-    });
+     if(editIndex === -1){
+        // ADD
+        students.push({
+            name: name,
+            roll: roll,
+            className: className
+        });
+    } else {
+        // UPDATE
+        students[editIndex] = {
+            name: name,
+            roll: roll,
+            className: className
+        };
+        editIndex = -1;
+    }
+
 
     localStorage.setItem("students", JSON.stringify(students));
 
