@@ -193,6 +193,24 @@ tr:hover {
   background: #dc2626;
 }
 
+.edit {
+  background: #f59e0b;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edit:hover {
+  background: #d97706;
+}
+
+.edit i,
+.delete i {
+  pointer-events: none;
+}
+
 /* Hidden Sections */
 
 .hidden {

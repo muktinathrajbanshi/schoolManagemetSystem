@@ -75,7 +75,8 @@ function renderStudents(){
         <td>${s.name}</td>
         <td>${s.className}</td>
         <td>
-        <button class="delete" onclick="deleteStudent(${i})">Delete</button>
+        <button class="edit" onclick="editStudent(${i})"> <i class="fa-solid fa-pen"></i> Edit </button>
+        <button class="delete" onclick="deleteStudent(${i})"> <i class="fa-solid fa-trash"></i> Delete </button>
         </td>
         </tr>
         `;
